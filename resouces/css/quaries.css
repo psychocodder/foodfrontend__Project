@@ -1,0 +1,152 @@
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .logo {
+        /* display: none; */
+        padding-left: 30px;
+        padding-top: 20px;
+        height: 100px;
+        width: auto;
+        float: left;
+        cursor: pointer;
+    }
+
+    header {
+        height: 100vh;
+    }    
+
+    .main-nav {
+        display: none;
+    }
+
+    .small-icons {
+        display: block;
+        margin-left: 1070px;
+        font-size: 50px;
+        padding-top: 50px;
+        position: absolute;
+    }
+
+    
+
+    .hero-text-box h1 {
+        font-size: 50px;
+        color: #f4f4f4;
+    }
+  }  
+
+  .thirdrow-one div {
+      padding: 80px;
+  }
+
+  .thirdrow-two {
+      margin-top: -70px;
+  }
+
+
+  /* .thirdrow-two a {
+      
+  } */
+
+  .sec-signup {
+    background-color: #f4f4f4;
+    height: 170vh;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    
+    .small-icons {
+        margin-left: 900px;
+        font-size: 40px;
+        position: absolute;
+    }
+
+    .hero-text-box {
+        padding-top: 60px;
+        padding-left: -30px;
+        position: absolute;
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero-text-box h1 {
+        font-size: 30px;
+        color: #f4f4f4;
+    }
+
+    .btn-quatar {
+        width: 100px;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .btn-half {
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .row-one {
+        margin-top: -9px;
+    }
+
+    .row-two {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .meals-contetnts h4 {
+        margin-top: 9%;
+    }
+
+    /* .thirdrow-two div {
+        font-size: ;
+    } */
+
+    .iphone-mobile {
+        height: 70vh;
+        vertical-align: center;
+    }
+
+    .sec-signup {
+        padding-left: 95px;
+        padding-bottom: -300px;
+    }
+
+    .sec-plans {
+        width: 210px;
+        height: 335px;
+        /* margin-right: 100px; */
+    }
+
+    .price-box span{
+        font-size: 50px;
+    }
+
+  }
+
+
+
+
+/* For Tablet Screen  */
+@media only screen and (max-width: 767px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+
+/* For Big Screen  */
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: lightblue;
+    }
+  }
